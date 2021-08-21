@@ -53,50 +53,70 @@ const Bio = () => {
                 In cooperation with
             </div>
 
-            <div style={{display: 'flex'}}>
-                <StaticImage
-                    className="university-logo"
-                    layout="fixed"
-                    formats={["AUTO", "WEBP", "AVIF"]}
-                    src="../images/harvard.png"
-                    width={200}
-                    height={50}
-                    quality={95}
-                    alt="Harvard"
-                />
-                <StaticImage
-                    className="university-logo"
-                    layout="fixed"
-                    formats={["AUTO", "WEBP", "AVIF"]}
-                    src="../images/cornell.png"
-                    width={200}
-                    height={50}
-                    quality={95}
-                    alt="Cornell"
-                />
-            </div>
-            <div style={{display: 'flex'}}>
-                <StaticImage
-                    className="university-logo"
-                    layout="fixed"
-                    formats={["AUTO", "WEBP", "AVIF"]}
-                    src="../images/imperial-college-london.png"
-                    width={182}
-                    height={50}
-                    quality={95}
-                    alt="Imperial College London"
-                />
-                <StaticImage
-                    className="university-logo"
-                    style={{marginLeft: '20px'}}
-                    layout="fixed"
-                    formats={["AUTO", "WEBP", "AVIF"]}
-                    src="../images/ecole-de-lausanne.png"
-                    width={102}
-                    height={50}
-                    quality={95}
-                    alt="Ecole de Lausanne"
-                />
+            <div style={{
+                display: 'grid',
+                gridTemplateAreas: `"harvard cornell"
+                                    "imperial ecole"`,
+                gridGap: '5px',
+                filter: 'saturate(0)',
+                transform: 'scale(0.5) translate(-270px, 0px)'
+            }}>
+                <div style={{gridArea: 'harvard'}}>
+                    <a href="/about/contactUs#media-about-us">
+                        <StaticImage
+                            className="university-logo"
+                            layout="fixed"
+                            formats={["AUTO", "WEBP", "AVIF"]}
+                            src="../images/harvard.png"
+                            width={200}
+                            height={50}
+                            quality={95}
+                            alt="Harvard"
+                        />
+                    </a>
+                </div>
+                <div style={{gridArea: 'cornell'}}>
+                    <a href="/about/contactUs#media-about-us">
+                        <StaticImage
+                            className="university-logo"
+                            layout="fixed"
+                            formats={["AUTO", "WEBP", "AVIF"]}
+                            src="../images/cornell.png"
+                            width={200}
+                            height={50}
+                            quality={95}
+                            alt="Cornell"
+                        />
+                    </a>
+                </div>
+                <div style={{gridArea: 'imperial'}}>
+                    <a href="/about/contactUs#media-about-us">
+                        <StaticImage
+                            className="university-logo"
+                            layout="fixed"
+                            formats={["AUTO", "WEBP", "AVIF"]}
+                            src="../images/imperial-college-london.png"
+                            width={182}
+                            height={50}
+                            quality={95}
+                            alt="Imperial College London"
+                        />
+                    </a>
+                </div>
+                <div style={{gridArea: 'ecole'}}>
+                    <a href="/about/contactUs#media-about-us">
+                        <StaticImage
+                            className="university-logo"
+                            layout="fixed"
+                            formats={["AUTO", "WEBP", "AVIF"]}
+                            src="../images/ecole-de-lausanne.png"
+                            width={102}
+                            height={50}
+                            quality={95}
+                            alt="Ecole de Lausanne"
+                        />
+                    </a>
+                </div>
             </div>
         </p>
       )}

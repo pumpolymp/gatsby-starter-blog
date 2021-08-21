@@ -303,13 +303,11 @@ a:focus {
 }
 
 .in-cooperation {
-  margin-top: var(--spacing-6);
-  margin-bottom: var(--spacing-1);
 }
 
 .university-logo {
-  margin-right: var(--spacing-4);
-  margin-bottom: var(--spacing-4);
+  margin-right: var(--spacing-0);
+  margin-bottom: var(--spacing-0);
   min-width: 50px;
   filter: saturate(0);
 }
