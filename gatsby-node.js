@@ -1,6 +1,5 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
-const fs = require('fs-extra')
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
@@ -114,6 +113,9 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
   `)
 }
+
+const fs = require('fs-extra')
+const path = require('path')
 
 /*
  * Gatsby Cloud passes some environment variables
