@@ -5,7 +5,9 @@ date: "2021-08-24T12:00:00.121Z"
 
 Professors from the world leading universities (**Harvard**, **Imperial College London**, etc.) show in this article that it's easy for everyone to make **60% profit** during **2.5 months** conservatively.
 
-They use PumpOlymp historical market data recorded during pumps:
+![Pump and dump activities from June 2018 to February 2019](./pnd.png)
+
+They use PumpOlymp [historical market data](https://pumpolymp.com/analytics/all-pumps) recorded during pumps:
 
 > Starting June 2018, PumpOlymp has been gleaning pump-and-dump events organized on Telegram.  **Using their API, we acquire an initial list of historical pump-and-dump activities** over the period of June 17, 2018 and February 26, 2019. For each listed pump-and-dump event, the data set contains the pumped coin, the target exchange, the organizing Telegram channel, the coin announcement time, plus the price and volume data on the tick-by-tick level from coin announcement up to 15 minutes afterwards.
 >
@@ -29,6 +31,6 @@ The authors conclude:
 >
 > <cite>J. Xu and B. Livshits, “The anatomy of a cryptocurrency pump-and-dumpscheme,” 2019, page 15.</cite>
 
-Although, they recognize potential legal implications of organizing pump and dump schemes. They hope their reseach will increase awereness of crypto market manipulation among traders, which will lead to more sustainability in the cryptocurrency markets.
+Although, the researchers recognize potential legal implications of organizing pump and dump schemes. They hope their reseach will increase awereness of crypto market manipulation among traders, which will lead to more sustainability in the cryptocurrency markets.
 
 The referenced article: <a href="https://arxiv.org/abs/1811.10109" target="_blank" rel="noopener noreferrer">J. Xu and B. Livshits, “The anatomy of a cryptocurrency pump-and-dumpscheme,” 2019</a>

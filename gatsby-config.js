@@ -5,7 +5,7 @@ module.exports = {
       name: `PumpOlymp`,
       summary: `Your trusted guide to the crypto pump world.`,
     },
-    description: `[1159+] unique historical pump events recorded over [2 years and 10 months]. Crypto pump and dump Telegram groups. Actionable crypto trading strategies to profit fast.`,
+    description: `[1439+] unique historical pump events recorded over [3 years and 2 months]. Crypto pump and dump Telegram groups. Actionable crypto trading strategies to profit fast.`,
     siteUrl: `https://pumpolymp.com/`,
     social: {
       twitter: `Pump_Olymp`,
@@ -126,6 +126,13 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://pumpolymp.com/blog`,
+        noQueryString: true
+      },
+    },
   ],
   pathPrefix: `/blog`,
 }
