@@ -129,7 +129,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `https://pumpolymp.com/blog`,
+        siteUrl: `https://pumpolymp.com`,
         noQueryString: true
       },
     },
