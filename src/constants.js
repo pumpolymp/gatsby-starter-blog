@@ -1,0 +1,1 @@
+export const GithubImagesUrl = 'https://raw.githubusercontent.com/pumpolymp/gatsby-starter-blog/master/src/images'

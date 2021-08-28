@@ -8,6 +8,7 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import {GithubImagesUrl} from "../constants";
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -33,16 +34,10 @@ const Bio = () => {
   return (
     <div className="bio">
         <a href="https://pumpolymp.com">
-              <StaticImage
-                className="bio-avatar"
-                layout="fixed"
-                formats={["AUTO", "WEBP", "AVIF"]}
-                src="../images/profile-pic.png"
-                width={50}
-                height={50}
-                quality={95}
-                alt="Profile picture"
-              />
+            <img className="bio-avatar"
+                 width="50px"
+                 alt="Profile picture"
+                 src={`${GithubImagesUrl}/profile-pic.png`}/>
         </a>
       {author?.name && (
         <p>
@@ -65,58 +60,34 @@ const Bio = () => {
             }}>
                 <div style={{gridArea: 'harvard'}}>
                     <a href="/about/contactUs#media-about-us">
-                        <StaticImage
-                            className="university-logo"
-                            layout="fixed"
-                            formats={["AUTO", "WEBP", "AVIF"]}
-                            src="../images/harvard.png"
-                            width={200}
-                            height={50}
-                            quality={95}
-                            alt="Harvard"
-                        />
+                        <img className="university-logo"
+                             width="200px"
+                             alt="Harvard"
+                             src={`${GithubImagesUrl}/harvard.png`}/>
                     </a>
                 </div>
                 <div style={{gridArea: 'cornell'}}>
                     <a href="/about/contactUs#media-about-us">
-                        <StaticImage
-                            className="university-logo"
-                            layout="fixed"
-                            formats={["AUTO", "WEBP", "AVIF"]}
-                            src="../images/cornell.png"
-                            width={200}
-                            height={50}
-                            quality={95}
-                            alt="Cornell"
-                        />
+                        <img className="university-logo"
+                             width="200px"
+                             alt="Cornell"
+                             src={`${GithubImagesUrl}/cornell.png`}/>
                     </a>
                 </div>
                 <div style={{gridArea: 'imperial'}}>
                     <a href="/about/contactUs#media-about-us">
-                        <StaticImage
-                            className="university-logo"
-                            layout="fixed"
-                            formats={["AUTO", "WEBP", "AVIF"]}
-                            src="../images/imperial-college-london.png"
-                            width={182}
-                            height={50}
-                            quality={95}
-                            alt="Imperial College London"
-                        />
+                        <img className="university-logo"
+                             width="182px"
+                             alt="Imperial College London"
+                             src={`${GithubImagesUrl}/imperial-college-london.png`}/>
                     </a>
                 </div>
                 <div style={{gridArea: 'ecole'}}>
                     <a href="/about/contactUs#media-about-us">
-                        <StaticImage
-                            className="university-logo"
-                            layout="fixed"
-                            formats={["AUTO", "WEBP", "AVIF"]}
-                            src="../images/ecole-de-lausanne.png"
-                            width={102}
-                            height={50}
-                            quality={95}
-                            alt="Ecole de Lausanne"
-                        />
+                        <img className="university-logo"
+                             width="102px"
+                             alt="Ecole de Lausanne"
+                             src={`${GithubImagesUrl}/ecole-de-lausanne.png`}/>
                     </a>
                 </div>
             </div>
