@@ -5,7 +5,7 @@ date: "2021-08-24T12:00:00.121Z"
 
 Professors from the world leading universities (**Harvard**, **Imperial College London**, etc.) show in this article that it's easy for everyone to make **60% profit** during **2.5 months** conservatively.
 
-![Pump and dump activities from June 2018 to February 2019](../../../src/images/pnd.png)
+![Pump and dump activities from June 2018 to February 2019](./pnd.png)
 
 They use PumpOlymp [historical market data](https://pumpolymp.com/analytics/all-pumps) recorded during pumps:
 
