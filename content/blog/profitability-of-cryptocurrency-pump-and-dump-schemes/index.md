@@ -48,6 +48,6 @@ The researcher concludes:
 > The classification model succeeded in predicting more than **75%** of the successful and unsuccessful pumps (out-of-sample) using information before the pump occurs.
 > Although P&D has a short history in cryptocurrency markets, it is attractive for investors due to the **inconceivable scale of returns**.
 >
-> <cite>Taro Tsuchiya, “Profitability of cryptocurrency Pump and Dump schemes,” 2021, page 6.</cite>
+> <cite>Taro Tsuchiya, “Profitability of cryptocurrency Pump and Dump schemes,” 2021, page 18.</cite>
 
 The referenced article: <a href="https://link.springer.com/content/pdf/10.1007/s42521-021-00034-6.pdf" target="_blank" rel="noopener noreferrer">Taro Tsuchiya **Keio University**, Tokyo, Japan, “Profitability of cryptocurrency Pump and Dump schemes,” 2021</a>
