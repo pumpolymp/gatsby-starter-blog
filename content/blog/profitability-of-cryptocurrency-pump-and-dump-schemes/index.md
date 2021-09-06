@@ -1,5 +1,5 @@
 ---
-title: Profitability of cryptocurrency Pump and Dump schemes
+title: Profitability of Cryptocurrency Pump and Dump schemes
 date: "2021-09-06T12:00:00.121Z"
 ---
 
@@ -38,6 +38,8 @@ All the parameters (e.g. duration, volume) are described in detail.
 
 Later on, the author builds machine learning models based on the data from PumpOlymp: 
 > The statistical model will be constructed to examine which variables are significant for the profitability of P&D in a Bayesian architecture. Moreover, to give predictions of P&D success rate, other classification models using tree-based machine learning algorithms will be built.
+>
+> <cite>Taro Tsuchiya, “Profitability of cryptocurrency Pump and Dump schemes,” 2021, page 12.</cite>
 
 ![Telegram channel effect](./chart.png)
 
