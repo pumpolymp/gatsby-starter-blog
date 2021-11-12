@@ -33,10 +33,5 @@ Enter your API Key in the left field and API Secret:API Passphrase in the right 
 
 This assumes you have already set up PumpOlymp Bot. In case you haven't, please read how to do it [here](https://pumpolymp.com/bot/info).
 
-**URGENT** [EXPIRES on November 10]:
-
-To celebrate adding KuCoin, PumpOlymp gives you a whopping **20% discount**.
-Use promo code **KUCOIN** to get it.
-
 Enjoy your profits on KuCoin!
 Happy pumping!
